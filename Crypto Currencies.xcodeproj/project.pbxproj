@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D45D62752372CB1400D474A5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D62742372CB1400D474A5 /* TableViewCell.swift */; };
+		D45D62772372E1F900D474A5 /* CurrencyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D62762372E1F900D474A5 /* CurrencyDetailsViewController.swift */; };
+		D45D62792373314600D474A5 /* CurrenciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D62782373314600D474A5 /* CurrenciesViewModel.swift */; };
+		D491B5CD23733D5B000567FF /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D491B5CC23733D5B000567FF /* Decode.swift */; };
+		D491B5CF23733D80000567FF /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D491B5CE23733D80000567FF /* GetData.swift */; };
+		D491B5D123734010000567FF /* CurrencyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D491B5D023734010000567FF /* CurrencyDetailsViewModel.swift */; };
+		D4B8F71123733439002B233F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F71023733439002B233F /* UIViewController+Extensions.swift */; };
+		D4B8F7142373352A002B233F /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F7132373352A002B233F /* Double+Extensions.swift */; };
 		D4E30F5D2371EAD500EB75B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E30F5C2371EAD500EB75B2 /* AppDelegate.swift */; };
 		D4E30F5F2371EAD500EB75B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E30F5E2371EAD500EB75B2 /* SceneDelegate.swift */; };
 		D4E30F612371EAD500EB75B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E30F602371EAD500EB75B2 /* ViewController.swift */; };
 		D4E30F642371EAD500EB75B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E30F622371EAD500EB75B2 /* Main.storyboard */; };
 		D4E30F662371EAD700EB75B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E30F652371EAD700EB75B2 /* Assets.xcassets */; };
 		D4E30F692371EAD700EB75B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E30F672371EAD700EB75B2 /* LaunchScreen.storyboard */; };
+		D4E30F732371EB4700EB75B2 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E30F722371EB4700EB75B2 /* CurrencyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D45D62742372CB1400D474A5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D45D62762372E1F900D474A5 /* CurrencyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsViewController.swift; sourceTree = "<group>"; };
+		D45D62782373314600D474A5 /* CurrenciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesViewModel.swift; sourceTree = "<group>"; };
+		D491B5CC23733D5B000567FF /* Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decode.swift; sourceTree = "<group>"; };
+		D491B5CE23733D80000567FF /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
+		D491B5D023734010000567FF /* CurrencyDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsViewModel.swift; sourceTree = "<group>"; };
+		D4B8F71023733439002B233F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		D4B8F7132373352A002B233F /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		D4E30F592371EAD500EB75B2 /* Crypto Currencies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Currencies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E30F5C2371EAD500EB75B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4E30F5E2371EAD500EB75B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,7 @@
 		D4E30F652371EAD700EB75B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4E30F682371EAD700EB75B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4E30F6A2371EAD700EB75B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E30F722371EB4700EB75B2 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D40C3D3C23733633001F9524 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4E30F602371EAD500EB75B2 /* ViewController.swift */,
+				D45D62742372CB1400D474A5 /* TableViewCell.swift */,
+				D45D62762372E1F900D474A5 /* CurrencyDetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D45D627A2373314B00D474A5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D45D62782373314600D474A5 /* CurrenciesViewModel.swift */,
+				D491B5D023734010000567FF /* CurrencyDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D491B5C923733C06000567FF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D491B5CE23733D80000567FF /* GetData.swift */,
+				D491B5CC23733D5B000567FF /* Decode.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D4B8F7122373343E002B233F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8F71023733439002B233F /* UIViewController+Extensions.swift */,
+				D4B8F7132373352A002B233F /* Double+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D4E30F502371EAD500EB75B2 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +111,27 @@
 		D4E30F5B2371EAD500EB75B2 /* Crypto Currencies */ = {
 			isa = PBXGroup;
 			children = (
+				D4B8F7122373343E002B233F /* Extensions */,
+				D491B5C923733C06000567FF /* Networking */,
+				D4E30F742371EB5000EB75B2 /* Models */,
+				D40C3D3C23733633001F9524 /* Views */,
+				D45D627A2373314B00D474A5 /* ViewModels */,
 				D4E30F5C2371EAD500EB75B2 /* AppDelegate.swift */,
 				D4E30F5E2371EAD500EB75B2 /* SceneDelegate.swift */,
-				D4E30F602371EAD500EB75B2 /* ViewController.swift */,
 				D4E30F622371EAD500EB75B2 /* Main.storyboard */,
 				D4E30F652371EAD700EB75B2 /* Assets.xcassets */,
 				D4E30F672371EAD700EB75B2 /* LaunchScreen.storyboard */,
 				D4E30F6A2371EAD700EB75B2 /* Info.plist */,
 			);
 			path = "Crypto Currencies";
+			sourceTree = "<group>";
+		};
+		D4E30F742371EB5000EB75B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4E30F722371EB4700EB75B2 /* CurrencyModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45D62772372E1F900D474A5 /* CurrencyDetailsViewController.swift in Sources */,
+				D45D62752372CB1400D474A5 /* TableViewCell.swift in Sources */,
+				D491B5D123734010000567FF /* CurrencyDetailsViewModel.swift in Sources */,
 				D4E30F612371EAD500EB75B2 /* ViewController.swift in Sources */,
+				D4B8F7142373352A002B233F /* Double+Extensions.swift in Sources */,
 				D4E30F5D2371EAD500EB75B2 /* AppDelegate.swift in Sources */,
+				D4B8F71123733439002B233F /* UIViewController+Extensions.swift in Sources */,
+				D4E30F732371EB4700EB75B2 /* CurrencyModel.swift in Sources */,
+				D45D62792373314600D474A5 /* CurrenciesViewModel.swift in Sources */,
+				D491B5CD23733D5B000567FF /* Decode.swift in Sources */,
+				D491B5CF23733D80000567FF /* GetData.swift in Sources */,
 				D4E30F5F2371EAD500EB75B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
