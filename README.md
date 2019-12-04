@@ -8,3 +8,7 @@ App displaying crypto currencies in a tableView with features including:
 - The app works offline after loading the data once.
 - Data is retreived from the following API : https://min-api.cryptocompare.com/documentation
 - The app follows the MVVM pattern.
+
+
+![Test Image](https://github.com/Brian-Co/CryptoCurrencies/blob/master/Screenshots.png)
+
